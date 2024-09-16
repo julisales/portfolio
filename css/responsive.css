@@ -1,0 +1,180 @@
+:root {
+    --primary-color: #130a20;
+    --secondary-color: #ec5ece;
+    --white: #fff;
+    --transition: all .2s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+    .menu-desktop, .btn-contact {
+        display: none;
+    } 
+
+    .flex {
+        flex-direction: column-reverse;
+    }
+
+    .hero .hero-content {
+        align-items: center;
+    }
+
+    .hero .hero-content h1 {
+        font-size: 3.2rem;
+    }
+
+    .hero .hero-content p {
+        font-size: 1.4rem;
+        max-width: 100%;
+    }
+
+    .hero .social-media i {
+        margin: 20px 15px 0 0;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .hero .btn-cv button {
+        padding: 14px 25px;
+        font-size: 1rem;
+    }
+
+    .img-hero {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero .img-hero img {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    section:not(.about-me) {
+        padding: 40px 2% !important;
+        height: auto;
+    }
+
+    section.about-me {
+        padding: 20px 2%;
+        height: auto;
+    }
+
+    section.about-me .content-about-me {
+        padding: 40px 20px; 
+    }
+
+    section.about-me .content-about-me p {
+        font-size: 1rem; 
+        line-height: 1.6;
+    }
+
+    section.skills .box-skills > div {
+        width: calc(50% - 16px); 
+        margin-bottom: 16px; 
+    }
+
+      .logo img {
+        width: 80px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        padding: 0 10px;
+    }
+
+    section.about-me .content-about-me {
+        padding: 40px 10px; 
+        border-radius: 20px; 
+    }
+
+    section.about-me .content-about-me p {
+        font-size: 0.9rem; 
+        line-height: 1.4;
+    }
+
+    header {
+        padding: 20px 4% 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .btn-open {
+        display: none;
+    }
+
+    .hero {
+        height: 80dvh;
+    }
+}
+
+/* STYLES MOBILE MENU */
+
+.btn-open i{
+    color: var(--secondary-color);
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+
+.menu-mobile {
+    background-color: var(--primary-color);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.menu-mobile.open-menu {
+    width: 70%;
+}
+
+.menu-mobile .btn-close i{
+    color: #ec5ece;
+    font-size: 32px;
+}
+
+.menu-mobile .btn-close {
+    padding: 20px 7%;
+}
+
+.menu-mobile nav ul {
+    text-align: right;
+}
+
+.menu-mobile nav ul li a {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover {
+    background-color: var(--secondary-color);
+}
+
+.menu-mobile.open-menu ~ .overlay {
+    display: block;
+}
+
+.overlay {
+    background-color: #00000085;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
