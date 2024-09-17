@@ -103,6 +103,18 @@
     header {
         padding: 20px 4% 0;
     }
+
+    section.skills .box-skills {
+        padding: 0 20px;
+    }
+
+    section.skills .box-skills {
+        padding: 0 20px;
+    }
+
+    section.skills .box-skills i {
+        font-size: 3.4rem;
+    }
 }
 
 @media (min-width: 1024px) {
