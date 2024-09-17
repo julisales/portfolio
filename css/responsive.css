@@ -115,6 +115,10 @@
     section.skills .box-skills i {
         font-size: 3.4rem;
     }
+
+    section.skills .conteiner-skills #skill-info {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 1024px) {
