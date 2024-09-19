@@ -133,15 +133,15 @@ section.hero .flex {
     padding: 15px;
     border-radius: 50%;
     transition: var(--transition);
-    width: 60px; /* Define a largura */
-    height: 60px; /* Define a altura */
+    width: 60px; 
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hero .social-media i:last-child {
-    margin-right: 0;
+.hero .social-media a:last-child i {
+    margin-right: 0; 
 }
 
 .hero .social-media a {
