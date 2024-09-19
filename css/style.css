@@ -140,6 +140,10 @@ section.hero .flex {
     align-items: center;
 }
 
+.hero .social-media i:last-child {
+    margin-right: 0;
+}
+
 .hero .social-media a {
     display: inline-block;
     text-decoration: none;
