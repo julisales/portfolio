@@ -14,13 +14,6 @@ const projectsData = [
         skills: ['fa-brands fa-html5', 'fa-brands fa-css3-alt'],
         link: "https://milkmania.vercel.app/"
     },
-    {
-        title: "Linkly 🔗",
-        description: "O Linkly é um encurtador de links, ferramenta simples e eficiente que permite encurtar URLs longas para facilitar o compartilhamento em redes sociais, e-mails e outras plataformas.",
-        imageUrl: "./assets/projects/linkly.png",
-        skills: ['fa-brands fa-html5', 'fa-brands fa-css3-alt' , 'fa-brands fa-js','fa-brands fa-react' ],
-        link: "https://linkly-app.vercel.app"
-    },
 ];
 
 // Função para criar e adicionar um card
